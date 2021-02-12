@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'MyPortfolio.apps.MyportfolioConfig',
     'ShopMyBooks.apps.ShopmybooksConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -125,3 +126,6 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static/')
 ]
 
+#managing media
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR,'media') # location of media files
