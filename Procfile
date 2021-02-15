@@ -1,1 +1,1 @@
-web:gubicorn mysite.wsgi --log-file-
+web:gubicorn mysite.wsgi --log-file -
