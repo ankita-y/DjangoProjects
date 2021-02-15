@@ -19,8 +19,8 @@ from django.conf import settings
 from . import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('',views.index, name='index'),
+    #path('admin/', admin.site.urls),
+    path('',views.index, name='ShopMyBooks'),
     path('aboutus/',views.aboutus,name='AboutUs'),
     path('contactus/',views.contactus,name='ContactUs'),
     path('myorder/',views.myorder,name='MyOrder'),
